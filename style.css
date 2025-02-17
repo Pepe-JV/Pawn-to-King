@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+.show-menu img{
+    max-height: 20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #04350c;
+    padding: 0.5%;
+}
+body{
+    background-color:  #636363;
+}
+.logo img{
+    width: 20%;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	
+}
+/*Crea la listahorizontal con espacio*/
+li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+/* Estilos para los link */
+li a {
+	display:block;
+	min-width:140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Red Hat Mono", serif;
+	color: white;
+	background:#04350c;
+	text-decoration: none;
+    transition:all 0.5s ease;
+    font-size: 1rem;
+}
+
+/* estados hover de los link */
+li:hover a {
+	background: #22721f;
+}
+
+/* estilos del dropdown */
+li:hover ul a {
+	background: #f3f3f3;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Oculta el dropdown*/
+li ul {
+	display: none;
+}
+
+/* Pone el dropdown en vertical */
+li ul li {
+	display: block;
+	float: none;
+}
+
+/* Previene el texto wrapping */
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 20px;
+}
+
+/* Estilo de .muestra-menu */
+.show-menu {
+	font-family: "Red Hat Mono", serif;
+	text-decoration: none;
+	color: black;
+	background: white;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+    transition:all 0.5s ease;
+}
+/*Oculta el checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/* muestra el menu cuando el checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/* estilos responsive */
+
+@media screen and (max-width : 768px){
+	/*Hace que el dropdown links aparescan en linea */
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Crea espacio vertical */
+	li {
+		margin-bottom: 1px;
+	}
+	/* crea todo el menu links  ancho full */
+	ul li, li a {
+		width: 100%;
+	}
+	/*Display '.muestra-menu' link*/
+	.show-menu {
+		display:block;
+	}
+    header{
+        display: block;
+        text-align: center;
+        position: sticky;
+        top:0;
+    }
+}
+body{
+    height: 200vh;
+}
+/*CSS BANNER*/
+h1{
+	font-size: 5rem;
+	color: #04350c;
+	font-family: "Red Hat Mono", serif;
+}
+p{
+	color: #04350c;
+	font-size: 2rem;
+	font-family: "Red Hat Mono", serif;
+}
+#container{
+	text-align: center;
+}
+.cuadro {
+	height: 100%;  
+	border-radius: 20px; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+  }
+ .boton{
+	background-color: #04350c;
+	border-radius: 20px;
+	padding: 4%;
+	color: white;
+	display: inline-block;
+	margin: 5%;
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: "Red Hat Mono", serif;
+	
+} 
+#botones .boton:hover{
+	color: #04350c;
+	transform: scale(1.05);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+	background: transparent;
+	border:  #04350c solid 1px;
+} 
+#Banner{
+	background: url(./img/banner.png);
+	background-size: cover;
+	height: 58vh;
+}
+
+
+
+
+
