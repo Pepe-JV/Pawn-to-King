@@ -170,7 +170,7 @@ p{
 	font-family: "Red Hat Mono", serif;
 	
 } 
-#botones .boton:hover{
+.boton:hover{
 	color: #04350c;
 	transform: scale(1.05);
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -182,7 +182,77 @@ p{
 	background-size: cover;
 	height: 58vh;
 }
-
+h2{
+	text-align: center;
+	margin: 6%;
+	color: white;
+	font-size: 2.5rem;
+}
+#movimientos{
+	background-color: #04350c;
+	display: flex;
+	justify-content: space-between;
+}
+#movimientos div img{
+	width: 60%;
+	padding: 5%;
+}
+#movimientos p{
+	color: white;
+	font-size: 1.5rem;
+}
+#movimientos div:nth-child(1){
+	margin: auto;
+}
+#promo-libro{
+	text-align: center;
+	padding: 5%;
+}
+#promo-libro img{
+	width: 15%;
+	padding: 1%;
+}
+#promo-libro p{
+	color: white;
+	font-size: 1.5rem;
+}
+#promo-libro a{
+	margin: auto;
+	padding: 2%;
+}
+#promo-libro h2{
+	padding: 1%;
+	margin: 1%;
+}
+#aprender h2{
+	padding-top: 2%;
+	margin: 2%;
+}
+#aprender{
+	background-color: #04350c;
+}
+#tabla{
+	display: flex;
+	justify-content: center;
+}
+#tabla div{
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	justify-content: center;
+}
+.cuadrado{
+	padding: 3%;
+	color: white;
+	display: inline-block;
+	font-size: 1.5rem;
+	border: solid 1px white;
+	margin: 2%;
+}
+#tabla div h3{
+	text-align: center;
+}
+ 
 
 
 
