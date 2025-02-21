@@ -192,17 +192,24 @@ h2{
 	background-color: #04350c;
 	display: flex;
 	justify-content: space-between;
+	text-align: center;
 }
 #movimientos div img{
-	width: 60%;
-	padding: 5%;
+	padding: 10%;
 }
 #movimientos p{
 	color: white;
 	font-size: 1.5rem;
 }
-#movimientos div:nth-child(1){
+#info {
+	width: 25%;
+}
+#movimientos>div{
 	margin: auto;
+}
+#tablero{
+	width: 60%;
+	display: flex;
 }
 #promo-libro{
 	text-align: center;
@@ -234,6 +241,7 @@ h2{
 #tabla{
 	display: flex;
 	justify-content: center;
+	padding: 4%;
 }
 #tabla div{
 	display: flex;
@@ -252,8 +260,47 @@ h2{
 #tabla div h3{
 	text-align: center;
 }
- 
-
-
-
+/*CSS FOOTER*/
+footer>div div{
+	width: 5%;
+}
+footer div{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+} 
+/*CSS LECCIONES*/
+/*CSS MOVIMIENTOS*/
+.mov{
+	background-color: #04350c;
+	border-radius: 20px;
+	padding: 2%;
+	width: 30%;
+	color: white;
+	display: inline-block;
+	margin: 4%;
+}
+#movimientos-iniciales h2{
+	font-size: 4rem;
+	padding: 5%;
+	margin: auto;
+}
+#movimientos-iniciales>div{
+	display: flex;
+	justify-content: space-between;
+}
+#movimientos-iniciales>div div{
+	text-align: center;
+}
+#movimientos-iniciales>div div p{
+	color: white;
+	font-size: 1.5rem;
+}
+#movimientos-iniciales>div div h3{
+	font-size: 2.5rem;
+}
+#movimientos-iniciales>div div img{
+	padding: 2%;
+	width: 70%;
+}
 
