@@ -278,7 +278,7 @@ footer div{
 	width: 30%;
 	color: white;
 	display: inline-block;
-	margin: 4%;
+	margin: 0% 4% 4% 4%; 
 }
 #movimientos-iniciales h2{
 	font-size: 4rem;
