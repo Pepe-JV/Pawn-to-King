@@ -513,3 +513,143 @@ footer div{
 	text-align: center;
 	padding: 3%;
 }
+/*RESPONSIVE*/
+
+@media screen and (max-width: 765px ){
+	#container p{
+		color: rgb(0, 0, 0);
+	} 
+}
+@media screen and (max-width: 918px){
+	#tabla{
+		display: flex;
+		flex-direction: column;
+	}
+	#tabla div {
+		margin: auto;
+	}
+	.cuadrado{
+		margin: 5%;
+	}
+	#rrss div{
+		width: 20%;
+	}
+	#movimientos-iniciales>div div{
+		margin: 15px auto;
+	}
+	#movimientos-aperturas>div div{
+		margin: 15px auto;
+	}
+	#movimientos-defensas>div div{
+		margin: 15px auto;
+	}
+	#movimientos-especiales>div div{
+		margin: 15px auto;
+	}
+
+	#movimientos-iniciales div{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+	#movimientos-aperturas div{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+	#movimientos-defensas div{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+	#movimientos-especiales div{
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+	.aper img{
+		margin: auto;
+	}
+	.def img{
+		margin: auto;
+	}
+	.move img{
+		margin: auto;
+	}
+	.mov img{
+		margin: auto;
+	}
+	.mov{
+		width: 60%;
+		
+	}
+	.aper{
+		width: 60%;
+		
+	}
+	.def{
+		width: 60%;
+		
+	}
+	.move{
+		width: 60%;
+		
+	}
+	#formcontacto{
+		width: auto;
+	}
+
+}
+@media screen and (max-width: 830px ){
+
+	#movimientos{
+		display: flex;
+		flex-direction: column;
+	}
+	#movimientos h2{
+		font-size: 2rem;
+		padding: 1%;
+	}
+	#movimientos p{
+		font-size: 1rem; 
+	}
+	#tablero {
+		display: flex;
+		flex-direction: column;
+		width: 40%;
+	}
+	#rrss div{
+		width: 20%;
+	}
+	#tabla{
+		display: flex;
+		flex-direction: column;
+	}
+	#tabla div {
+		margin: auto;
+	}
+	.cuadrado{
+		margin: 5%;
+	}
+}
+@media screen and (max-width: 830px ){
+
+	#cursos div{
+		display: flex;
+		flex-direction: column;
+	}
+	#cursos h3{
+		font-size: 2rem;
+	}
+	#cursos p{
+		font-size: 1rem;
+	}
+	#cursos-principiantes div{
+		margin: 15px auto;
+	}
+	#cursos-avanzado div{
+		margin: 15px auto;
+	}
+}
+
+
